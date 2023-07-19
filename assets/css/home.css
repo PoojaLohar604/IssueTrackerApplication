@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(130, 228, 130);
+}
+#iconimg{
+    height: 20px;
+    position: absolute;
+}
+.project {
+    height: 80px;
+    background-color: rgb(145, 200, 230);
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+    box-shadow:
+    inset 0 -10em 3em rgba(244, 242, 242, 0.1),
+    0 0 0 2px rgb(174, 172, 172),
+    0.3em 0.3em 1em rgba(233, 232, 232, 0.3);
+    padding: 20px;
+    margin: 80px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.project a{
+    color: rgb(1, 57, 71);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.project a  :hover{
+    color: black;
+    text-decoration: underline;
+   
+}
+
+.project h2 {
+    margin-top: 0;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+#create-project{
+    height: 75px;
+    width: 120px;
+    padding: 10px;
+    padding-right: 40px;
+    font-weight: bold;
+  
+    margin-left: 550px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+
+}

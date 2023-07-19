@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>List of Projects</title>
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
+	
+</head>
+<body>
+  <div>
+	<h1> List of Projects
+	<span><img alt="icon" src="https://cdn-icons-png.flaticon.com/128/2099/2099125.png"
+	style="height: 30px;"	/></span>	
+	</h1>
+</div><br/>
+	<div>
+    <a href="/create-project-page" id="create-project">Create Project&nbsp;
+		<span><img alt="icon"
+			 src="https://cdn-icons-png.flaticon.com/128/10023/10023858.png" 
+			id="iconimg" />
+			</span>
+	</a>
+	</div>
+	<br/><hr/><br/>
+	<div>
+	<% projects.forEach(function(project) { %>
+		<div class="project">
+			<a href="/proj/<%=project._id%>"><h2><%= project.name %></h2></a>
+			<p><%= project.description %></p>
+			<p>Author: <%= project.author %></p>
+		</div>
+	<% }); %>
+	</div>
+</body>
+</html>

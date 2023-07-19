@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #71e175;
+}
+
+form {
+    background-color: rgb(126, 193, 229);
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 120px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"], form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+form button {
+    display: block;
+    background-color: crimson;
+    border: 2px solid white;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 430px;
+}
+
+form button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
